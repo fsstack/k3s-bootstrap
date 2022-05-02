@@ -17,3 +17,4 @@ If you need or want to reset your nodes (aka remove k3s) you can run the `k3s-re
 
 ## Limitations
 * Bootstrap script is not idempotent. If you re-run it likely cause problems.
+* Scripts assume you'll have 1 master and at least 1 agent node.
